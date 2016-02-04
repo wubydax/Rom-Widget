@@ -10,6 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
@@ -38,6 +39,10 @@ public class Utils {
         startConfig.setAction(MyWidgetProvider.OPEN_CONFIG_ACTION + String.valueOf(widgetId));
         PendingIntent configPendingIntent = PendingIntent.getBroadcast(c.getApplicationContext(), 0, startConfig, 0);
         rv.setOnClickPendingIntent(R.id.openConfig, configPendingIntent);
+        Intent openXda = new Intent(Intent.ACTION_VIEW);
+        openXda.setData(Uri.parse(c.getResources().getString(R.string.home_xda_link)));
+        PendingIntent openXdaPendingIntent = PendingIntent.getActivity(c, 0, openXda, 0);
+        rv.setOnClickPendingIntent(R.id.xdaContainer, openXdaPendingIntent);
         for (int i = 1; i < 6; i++) {
             String appNumberString = String.valueOf(i);
             String packageName = sp.getString("app" + appNumberString, "");
