@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">יישומון מרכז הרום</string>
+    <string name="bg_color">צבע רקע</string>
+    <string name="contacts_package_name" translatable="false"></string>
+    <string name="dialog_color_picker">בחר צבע</string>
+    <string name="num_shortcuts">מספר קיצורי דרך</string>
+    <string name="press_color_to_apply">לחץ לשמירה</string>
+    <string name="save">שמור</string>
+    <string name="short_1">קיצור דרך 1</string>
+    <string name="short_2">קיצור דרך 2</string>
+    <string name="short_3">קיצור דרך 3</string>
+    <string name="short_4">קיצור דרך 4</string>
+    <string name="short_5">קיצור דרך 5</string>
+    <string name="shortcut_config">הגדרות קיצורי דרך</string>
+    <string name="text_color">צבע טקסט</string>
+    <string name="widget_appearance">מראה יישומון</string>
+    <string name="widget_title">מרכז הרום שלי</string>
+</resources>

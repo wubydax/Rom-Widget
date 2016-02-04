@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Виджет прошивки</string>
+    <string name="bg_color">Цвет фона</string>
+    <string name="dialog_color_picker">Выберете цвет</string>
+    <string name="num_shortcuts">Кол-во ярлыков</string>
+    <string name="press_color_to_apply">Нажмите для сохранения</string>
+    <string name="save">Сохранить</string>
+    <string name="short_1">Ярлык 1</string>
+    <string name="short_2">Ярлык 2</string>
+    <string name="short_3">Ярлык 3</string>
+    <string name="short_4">Ярлык 4</string>
+    <string name="short_5">Ярлык 5</string>
+    <string name="shortcut_config">Настройки ярлыков</string>
+    <string name="text_color">Цвет текста</string>
+    <string name="widget_appearance">Вид виджета</string>
+    <string name="widget_title">Мой ром</string>
+</resources>

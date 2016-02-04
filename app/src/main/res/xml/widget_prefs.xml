@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/widget_appearance">
+
+        <com.wubydax.romcenterwidget.prefs.ColorPickerPreference
+            alphaSlider="true"
+            hexValue="true"
+            android:defaultValue="#7f000000"
+            android:key="bg_color"
+            android:title="@string/bg_color" />
+        <com.wubydax.romcenterwidget.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="text_color"
+            android:title="@string/text_color" />
+        <ListPreference
+            alphaSlider="true"
+            hexValue="true"
+            android:defaultValue="4"
+            android:entries="@array/number_shortcuts"
+            android:entryValues="@array/number_shortcuts_values"
+            android:key="widget_size"
+            android:summary="%s"
+            android:title="@string/num_shortcuts" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_category"
+        android:title="@string/shortcut_config">
+        <com.wubydax.romcenterwidget.prefs.IntentDialogPreference
+            android:defaultValue="@string/contacts_package_name"
+            android:key="app1"
+            android:summary="Add app shortcut"
+            android:title="@string/short_1"
+            includeSearch="true"/>
+        <com.wubydax.romcenterwidget.prefs.IntentDialogPreference
+            android:key="app2"
+            android:summary="Add app shortcut"
+            android:title="@string/short_2"
+            includeSearch="true"/>
+        <com.wubydax.romcenterwidget.prefs.IntentDialogPreference
+            android:key="app3"
+            android:summary="Add app shortcut"
+            android:title="@string/short_3"
+            includeSearch="true"/>
+        <com.wubydax.romcenterwidget.prefs.IntentDialogPreference
+            android:key="app4"
+            android:summary="Add app shortcut"
+            android:title="@string/short_4"
+            includeSearch="true"/>
+        <com.wubydax.romcenterwidget.prefs.IntentDialogPreference
+            android:key="app5"
+            android:summary="Add app shortcut"
+            android:title="@string/short_5"
+            includeSearch="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

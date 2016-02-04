@@ -1,0 +1,26 @@
+<resources>
+
+    <!--App and widget related strings-->
+    <string name="app_name">Rom Center Widget</string>
+    <string name="widget_title">My Rom Hub</string>
+    <string name="press_color_to_apply">Press color to apply</string>
+    <string name="dialog_color_picker">Choose color</string>
+    <string name="save">Save</string>
+
+
+    <!-- Links and package names for devs - non translatable-->
+    <string name="home_xda_link" translatable="false">http://forum.xda-developers.com/android/apps-games/app-rom-control-app-devs-t3146567</string>
+    <string name="contacts_package_name" translatable="false">com.android.contacts</string>
+
+    <!--Preference related strings-->
+    <string name="bg_color">Background Color</string>
+    <string name="text_color">Text Color</string>
+    <string name="num_shortcuts">Number of Shortcuts</string>
+    <string name="widget_appearance">Widget Appearance</string>
+    <string name="shortcut_config">Shortcuts configuration</string>
+    <string name="short_1">Shortcut 1</string>
+    <string name="short_2">Shortcut 2</string>
+    <string name="short_3">Shortcut 3</string>
+    <string name="short_4">Shortcut 4</string>
+    <string name="short_5">Shortcut 5</string>
+</resources>
